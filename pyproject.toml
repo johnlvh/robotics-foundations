@@ -1,0 +1,28 @@
+[project]
+name = "research"
+version = "0.1.0"
+description = "Self-directed training and research in computer vision, machine learning, and deep learning."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = 'LICENSE.txt' }
+authors = [
+    { name = "John Luong", email = "johnluong.dev@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "dotenv",
+    "opencv-python",
+    "scikit-image",
+    'Pillow==9.5.0',
+    'pdf2image==1.16.0',
+    'pikepdf==7.2.0',
+    'pypdf==3.8.1',
+    'open3d',
+    'pyvista',
+    'shapely'
+]
