@@ -2,17 +2,17 @@
 
 ## Geometry
 
-| Lecture | Topic | Tracking |
-| :-------------: | ------------- | :-----: |
-| 01 | Introduction | Completed |
-| 02 | Camera models | |
-| 03 | Camera calibration | |
-| 04 | Single view metrology | |
-| 05 | Epipolar geometry | |
-| 06 | Stereo Systems | |
-| 07 | Structure from Motion | |
-| 08 | Active and Volumetric Stereo | |
-| 09 | Fitting and Matching | |
+| Lecture | Topic | Tracking | Note |
+| :-------------: | ------------- | :-----: | ----- |
+| 01 | Introduction | Completed | Focus: <br>1. Space/Geometry <br>2. Time/Dynamics + Learning |
+| 02 | Camera models | Completed | Camera models, camera matrix, camera skewness, canotical projective transformation <br>2D translation/rotation/scalling <br>3D translation/rotation point <br>World reference system <br>The projective transformation 3D point to 2D coordinate <br>Thin lenses |
+| 03 | Camera calibration | Completed | Camera Models: Perspective, Weak Perspective, Orthographic <br>Camera Calibration: Intrinsic and Extrinsic parameter estimation via SVD <br>Radial Distortion: Barrel/pincushion distortion, non-linear polynomial functions via Optimization Levenberg-Marquardt / Newton algorithms <br>OpenCV Calibration|
+| 04 | Single view metrology | | |
+| 05 | Epipolar geometry | | |
+| 06 | Stereo Systems | | |
+| 07 | Structure from Motion | | |
+| 08 | Active and Volumetric Stereo | | |
+| 09 | Fitting and Matching | | |
 
 ## Dynamics & Learning
 
@@ -28,30 +28,44 @@
 | 17 | Gaussian Splatting | |
 | 18 | Guest Lecture | |
 
+## Course Notes
+
+| No. | Topic | Tracking | Note |
+| :-------------: | ----- | :-----: | ----- |
+| Course Notes 01: | Camera Models.pdf | Completed | Summarize Lectures 1, 2, 3 |
+| Course Notes 02: | Single View Metrology.pdf | | |
+| Course Notes 03: | Epipolar Geometry.pdf | | |
+| Course Notes 04: | Stereo Systems and Structure from Motion.pdf | | |
+| Course Notes 05: | Active and Volumetric Stereo.pdf | | |
+| Course Notes 06: | Fitting and Matching.pdf | | |
+| Course Notes 07: | Representations and Representation Learning.pdf | | |
+| Course Notes 08: | Monocular Depth Estimation and Feature Tracking.pdf | | |
+| Course Notes 09: | Optical and Scene Flow.pdf | | |
+| Course Notes 10: | Optimal Estimation.pdf | | |
+
 ## Sections
 
-| No. | Tracking |
-| :-------------: | :-----: |
-| section1 | |
-| section2 | |
-| section3 | |
-| section4 | |
-| section5 | |
-| section6 | |
-| section7 | |
-| section8 | |
-| section9 | |
-
+| No. | Topic | Tracking | Note |
+| :-------------: | ----- | :-----: | ----- |
+| section1 | Python Introduction and Linear Algebra Review | Completed | Python, Vector, Matrix, Numpy, dot, cross, norm, transpose, repeat, tile, broadcasting rule, matrix determinant, matrix inverse, maxtrix ingensvalues, matrix ingensvectors, singular value decompose SVD |
+| section2 | | | |
+| section3 | | | |
+| section4 | | | |
+| section5 | | | |
+| section6 | | | |
+| section7 | | | |
+| section8 | | | |
+| section9 | | | |
 
 ## Problems
 
-| No. | Tracking |
-| :-------------: | :-----: |
-| ps0 | |
-| ps1 | |
-| ps2 | |
-| ps3 | |
-| ps4 | |
+| No. | Tracking | Note |
+| :-------------: | :-----: | ----- |
+| ps0 | Completed | Basic Matrix/Vector/Image Manipulation, Singular Value Decomposition (SVD) |
+| ps1 | | |
+| ps2 | | |
+| ps3 | | |
+| ps4 | | |
 
 ## Papers
 
