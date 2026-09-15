@@ -5,10 +5,10 @@
 | Lecture | Topic | Tracking | Note |
 | :-------------: | ------------- | :-----: | ----- |
 | 01 | Introduction | Completed | Focus: <br>1. Space/Geometry <br>2. Time/Dynamics + Learning |
-| 02 | Camera models | Completed | Camera models, camera matrix, camera skewness, canotical projective transformation <br>2D translation/rotation/scalling <br>3D translation/rotation point <br>World reference system <br>The projective transformation 3D point to 2D coordinate <br>Thin lenses |
-| 03 | Camera calibration | Completed | Camera Models: Perspective, Weak Perspective, Orthographic <br>Camera Calibration: Intrinsic and Extrinsic parameter estimation via SVD <br>Radial Distortion: Barrel/pincushion distortion, non-linear polynomial functions via Optimization Levenberg-Marquardt / Newton algorithms <br>OpenCV Calibration|
-| 04 | Single view metrology | | |
-| 05 | Epipolar geometry | | |
+| 02 | Camera models | Completed |• Camera models, camera matrix, camera skewness, canotical projective transformation <br>• 2D translation/rotation/scalling <br>• 3D translation/rotation point <br>• World reference system <br>• The projective transformation 3D point to 2D coordinate <br>• Thin lenses |
+| 03 | Camera calibration | Completed |• Camera Models: Perspective, Weak Perspective, Orthographic <br>• Camera Calibration: Intrinsic and Extrinsic parameter estimation via SVD <br>• Radial Distortion: Barrel/pincushion distortion, non-linear polynomial functions via Optimization Levenberg-Marquardt / Newton algorithms <br>• OpenCV Calibration|
+| 04 | Single view metrology | Completed |• Transformations in 2D: Isometric, Similarity, Affine, Projective/homographies transformations <br>• Points and Lines at Infinity: Lines in a 2D plane, 2D Points at infinity (ideal points), Lines infinity, Points and planes in 3D, Lines in 3D, Points at infinity in 3D <br>• Vanishing Points and Lines: Vanishing points and Directions, Vanishing (horizon) line, Vanishing points and planes, Planes at infinity, Angle between 2 vanishing points, Properties of ω <br>• Single View Metrology: Estimating geometry from a single image, Single view calibration, Single view reconstruction <br>•  Extensions: Single view reconstruction, Automatic Photo Pop, Make3D, Depth map reconstruction using deep learning, 3D Layout estimation, Coherent object detection and scene layout estimation from a single image <br> [Reference](CourseNotes/Appexdix/Lec04_ASingleViewMetrology.pdf)|
+| 05 | Epipolar geometry | Completed | <br>• Introduction: Multiple camera views resolve the 3D-to-2D depth ambiguities inherent in single-view images. <br>• Epipolar Geometry: Defines the geometric relationships between camera centers, 3D points, epipoles, and epipolar lines. [More here!](CourseNotes/Appexdix/Lec05_EpipolarGeometry_CMU.pdf) <br>• The Essential Matrix: A 5-DOF matrix ($E$) that constrains point projections for calibrated cameras using $p^T E p' = 0$. [More here!](CourseNotes/Appexdix/Lec05_EssentialMatrix.pdf)<br>• The Fundamental Matrix: A 7-DOF matrix ($F$) that generalizes this epipolar constraint to uncalibrated cameras. [More here!](CourseNotes/Appexdix/Lec05_FundamentalMatrix.pdf) <br>• The Eight-Point Algorithm: Estimates the fundamental matrix from at least eight point correspondences using SVD and rank-2 enforcement. <br>• The Normalized Eight-Point Algorithm: Pre-conditions image points via translation and scaling to fixill-conditioned data for better accuracy. [More here!](CourseNotes/Appexdix/Lec05_EightPointsAlgorithm.pdf) <br>• Image Rectification: Computes homographies to warp image planes parallel, aligning epipoles to infinity so matching points share identical vertical coordinates. [More here!](CourseNotes/Appexdix/Lec05_ImageRectification.pdf) |
 | 06 | Stereo Systems | | |
 | 07 | Structure from Motion | | |
 | 08 | Active and Volumetric Stereo | | |
@@ -33,8 +33,8 @@
 | No. | Topic | Tracking | Note |
 | :-------------: | ----- | :-----: | ----- |
 | Course Notes 01: | Camera Models.pdf | Completed | Summarize Lectures 1, 2, 3 |
-| Course Notes 02: | Single View Metrology.pdf | | |
-| Course Notes 03: | Epipolar Geometry.pdf | | |
+| Course Notes 02: | Single View Metrology.pdf | Completed | Summarize Lecture 4 |
+| Course Notes 03: | Epipolar Geometry.pdf | Completed | Summarize Lecture 5 |
 | Course Notes 04: | Stereo Systems and Structure from Motion.pdf | | |
 | Course Notes 05: | Active and Volumetric Stereo.pdf | | |
 | Course Notes 06: | Fitting and Matching.pdf | | |
@@ -48,8 +48,8 @@
 | No. | Topic | Tracking | Note |
 | :-------------: | ----- | :-----: | ----- |
 | section1 | Python Introduction and Linear Algebra Review | Completed | Python, Vector, Matrix, Numpy, dot, cross, norm, transpose, repeat, tile, broadcasting rule, matrix determinant, matrix inverse, maxtrix ingensvalues, matrix ingensvectors, singular value decompose SVD |
-| section2 | | | |
-| section3 | | | |
+| section2 | PSET 1 Review + Project Overview | Completed | Problems Outline: Projective Geometry, Affine Camera Calibration, Single View Geometry ([explain here!](./CourseNotes/Appexdix/Section2_ProblemsOutline_Projective%20Geometry_AffineCameraCalibration_SingleViewGeometry.pdf)) |
+| section3 | Project Overview + Project Proposal | Completed |  Class Coverage <br> 1. Camera models and calibration – Single camera and how we model it <br> 2. Single view metrology – Estimating geometry from a single view <br> 3. Epipolar Geometry (Stereo Vision) – Estimating geometry from two viewpoints <br> 4. Structure from Motion – Using motion/several viewpoints to estimate structure <br> 5. Volumetric Stereo – Using multiple views to map 3D points <br> 6. Representations and Representation Learning – Extracting features from 2D images for downstream applications <br> 7. Monocular Depth Estimation & Feature Tracking – Estimating depth in images, tracking of pixels in videos <br> 8. Optical and Scene Flow <br> 9. Neural Radiance Fields |
 | section4 | | | |
 | section5 | | | |
 | section6 | | | |
